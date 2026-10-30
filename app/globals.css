@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --foreground: #0f172a;
+  --background: #f0fdf4;
+  --card: #ffffff;
+  --muted: #64748b;
+  --border: #d1fae5;
+  --primary: #16a34a;
+  --primary-dark: #15803d;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Leaflet */
+.leaflet-container {
+  font-family: inherit;
+  background: #e2e8f0;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 14px;
+  box-shadow: 0 10px 25px -5px rgb(0 0 0 / 0.1);
+  border: 1px solid #e2e8f0;
+}
+
+.leaflet-popup-content {
+  margin: 12px 14px;
+  line-height: 1.45;
+  font-size: 13px;
+}
+
+.custom-stop-icon,
+.custom-selected-icon,
+.user-location-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+/* Scrollbar */
+.overflow-y-auto::-webkit-scrollbar {
+  width: 4px;
+}
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 10px;
+}
+
+/* Glass */
+.glass {
+  background: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Safe area */
+@supports (padding: max(0px)) {
+  .safe-bottom {
+    padding-bottom: max(12px, env(safe-area-inset-bottom));
+  }
+}
+
+/* Red flashing for buses arriving within 3 minutes */
+@keyframes eta-urgent-blink {
+  0%, 100% {
+    background-color: rgba(254, 226, 226, 0.9);
+    color: #dc2626;
+  }
+  50% {
+    background-color: rgba(220, 38, 38, 0.9);
+    color: #ffffff;
+  }
+}
+
+.eta-urgent {
+  animation: eta-urgent-blink 1s ease-in-out infinite;
+  border-radius: 0.5rem;
+  padding: 0.15rem 0.5rem;
+  font-weight: 700;
+}

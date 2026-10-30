@@ -1,0 +1,182 @@
+{
+  "route": "K66",
+  "dir": "O",
+  "stops": [
+    {
+      "seq": 1,
+      "stop_id": "K66-U010",
+      "lat": 22.45078121,
+      "lng": 114.0229286,
+      "name_tc": "朗屏",
+      "name_en": "Long Ping"
+    },
+    {
+      "seq": 2,
+      "stop_id": "K66-U020",
+      "lat": 22.45134693,
+      "lng": 114.0254022,
+      "name_tc": "楊屋村",
+      "name_en": "Yeung Uk Tsuen"
+    },
+    {
+      "seq": 3,
+      "stop_id": "K66-U030",
+      "lat": 22.447672,
+      "lng": 114.023295,
+      "name_tc": "屏昌徑 (港鐵朗屏站)",
+      "name_en": "Ping Cheong Path (MTR Long Ping Station)"
+    },
+    {
+      "seq": 4,
+      "stop_id": "K66-U040",
+      "lat": 22.446002,
+      "lng": 114.022607,
+      "name_tc": "元朗盲人安老院",
+      "name_en": "Yuen Long Home for the Aged Blind"
+    },
+    {
+      "seq": 5,
+      "stop_id": "K66-U050",
+      "lat": 22.4434668,
+      "lng": 114.0223167,
+      "name_tc": "元朗大會堂 (輕鐵豐年路站)",
+      "name_en": "Yuen Long Town Hall (LR Fung Nin Road Stop)"
+    },
+    {
+      "seq": 6,
+      "stop_id": "K66-U060",
+      "lat": 22.44306167,
+      "lng": 114.0236577,
+      "name_tc": "安康路",
+      "name_en": "On Hong Road"
+    },
+    {
+      "seq": 7,
+      "stop_id": "K66-U070",
+      "lat": 22.44297,
+      "lng": 114.027754,
+      "name_tc": "元朗商業中心",
+      "name_en": "Yuen Long Commercial Centre"
+    },
+    {
+      "seq": 8,
+      "stop_id": "K66-U080",
+      "lat": 22.44120404,
+      "lng": 114.0294022,
+      "name_tc": "富達廣場",
+      "name_en": "Manhattan Plaza"
+    },
+    {
+      "seq": 9,
+      "stop_id": "K66-U090",
+      "lat": 22.436903,
+      "lng": 114.029411,
+      "name_tc": "蝶翠峰",
+      "name_en": "Sereno Verde"
+    },
+    {
+      "seq": 10,
+      "stop_id": "K66-U100",
+      "lat": 22.435406,
+      "lng": 114.0287683,
+      "name_tc": "禮修村",
+      "name_en": "Fraser Village"
+    },
+    {
+      "seq": 11,
+      "stop_id": "K66-U110",
+      "lat": 22.43369688,
+      "lng": 114.0285876,
+      "name_tc": "深涌村",
+      "name_en": "Sham Chung Tsuen"
+    },
+    {
+      "seq": 12,
+      "stop_id": "K66-U120",
+      "lat": 22.43240032,
+      "lng": 114.0285171,
+      "name_tc": "羅家園",
+      "name_en": "Law Ka Yuen"
+    },
+    {
+      "seq": 13,
+      "stop_id": "K66-U130",
+      "lat": 22.42978906,
+      "lng": 114.0286105,
+      "name_tc": "崇正公立學校",
+      "name_en": "Shung Ching School"
+    },
+    {
+      "seq": 14,
+      "stop_id": "K66-U140",
+      "lat": 22.42739559,
+      "lng": 114.0295088,
+      "name_tc": "崇正菜站",
+      "name_en": "Shung Ching Vegetable Market"
+    },
+    {
+      "seq": 15,
+      "stop_id": "K66-U150",
+      "lat": 22.42562276,
+      "lng": 114.0312735,
+      "name_tc": "老圍",
+      "name_en": "Lo Wai"
+    },
+    {
+      "seq": 16,
+      "stop_id": "K66-U160",
+      "lat": 22.42356303,
+      "lng": 114.0321846,
+      "name_tc": "振華花園",
+      "name_en": "Chun Wah Villas"
+    },
+    {
+      "seq": 17,
+      "stop_id": "K66-U170",
+      "lat": 22.42265522,
+      "lng": 114.0308948,
+      "name_tc": "南坑排",
+      "name_en": "Nam Hang Pai"
+    },
+    {
+      "seq": 18,
+      "stop_id": "K66-U180",
+      "lat": 22.42247664,
+      "lng": 114.0298802,
+      "name_tc": "水蕉新村",
+      "name_en": "Shui Chiu San Tsuen"
+    },
+    {
+      "seq": 19,
+      "stop_id": "K66-U190",
+      "lat": 22.42193919,
+      "lng": 114.0282615,
+      "name_tc": "華苑",
+      "name_en": "Wah Yuen"
+    },
+    {
+      "seq": 20,
+      "stop_id": "K66-U200",
+      "lat": 22.41836575,
+      "lng": 114.0256553,
+      "name_tc": "大棠迴旋處",
+      "name_en": "Tai Tong Roundabout"
+    },
+    {
+      "seq": 21,
+      "stop_id": "K66-U210",
+      "lat": 22.41618728,
+      "lng": 114.0236994,
+      "name_tc": "大棠山路",
+      "name_en": "Tai Tong Shan Road"
+    },
+    {
+      "seq": 22,
+      "stop_id": "K66-U220",
+      "lat": 22.416389,
+      "lng": 114.021874,
+      "name_tc": "大棠黃泥墩村",
+      "name_en": "Tai Tong Wong Nai Tun Tsuen"
+    }
+  ]
+}

@@ -30,5 +30,15 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    {
+      "source": "/icons/icon-192.png",
+      "destination": "https://rb-1997.github.io/hk-bus-eta/icons/icon-192.png"
+    },
+    {
+      "source": "/icons/icon-512.png",
+      "destination": "https://rb-1997.github.io/hk-bus-eta/icons/icon-512.png"
+    }
   ]
 }

@@ -35,7 +35,7 @@ import clsx from "clsx";
 
 // App name + version: bump patch version on every user-facing change
 export const APP_NAME = "CNE 交通資訊";
-export const APP_VERSION = "1.1.28";
+export const APP_VERSION = "1.1.29";
 
 export function OperatorBadge({ operator }: { operator: string }) {
   const src =
@@ -790,9 +790,12 @@ export default function LiteApp() {
     lat: userLat,
     lng: userLng,
     loading: geoLoading,
+    error: geoError,
     permission,
     requestLocation,
-  } = useGeolocation(true);
+  } = useGeolocation(
+    typeof window === "undefined" || window.self === window.top
+  );
 
   const { stops, isLoading: stopsLoading } = useStops();
   const { favorites, isFavorite, toggleFavorite } = useFavorites();
@@ -1211,6 +1214,12 @@ export default function LiteApp() {
             {geoLoading && (
               <div className="bg-white rounded-2xl p-6 text-center text-[15px] text-slate-500">
                 定位緊…
+              </div>
+            )}
+
+            {!hasLocation && !geoLoading && geoError && (
+              <div className="bg-white rounded-2xl p-6 text-center text-[15px] text-red-600">
+                {geoError}
               </div>
             )}
 

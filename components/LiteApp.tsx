@@ -35,7 +35,7 @@ import clsx from "clsx";
 
 // App name + version: bump patch version on every user-facing change
 export const APP_NAME = "CNE 交通資訊";
-export const APP_VERSION = "1.1.27";
+export const APP_VERSION = "1.1.28";
 
 export function OperatorBadge({ operator }: { operator: string }) {
   const src =
